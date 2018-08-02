@@ -1,0 +1,29 @@
+{
+  "name": "glints-sdk",
+  "version": ".0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glints-dev/glints-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glints-dev/glints-sdk/issues"
+  },
+  "homepage": "https://github.com/glints-dev/glints-sdk#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^3.0.7"
+  }
+}
