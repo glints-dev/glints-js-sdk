@@ -7,12 +7,14 @@ This SDK aims to help the development of integrations with Glints that use JavaS
 ## Installation
 
 ### Broswer
+
 - Copy the minimal (.min.js) version of this glints-js-sdk
-- Include it to your script : `<script src="path/to/bynder-js-sdk.js"></script>`
+- Include it to your script : `<script src="path/to/glints-js-sdk.js"></script>`
 
 ### NodeJS
+
 - `npm install glints-js-sdk`
-- `import Bynder from 'glints-js-sdk'`;
+- `import Glints from 'glints-js-sdk'`;
 
 ## Usage
 
@@ -23,7 +25,7 @@ cosnt glints = new Glints({
 ```
 
 ### Method available
+
 #### Authentication
+
 - Register
-
-
