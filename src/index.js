@@ -30,7 +30,7 @@ export default class Glints {
    * @return {Promise} Credentials - Returns a Promise that, when fulfilled, will either return an Array with the users credetensials detail or
    * an Error with the problem.
    */
-  register() {
+  register(object) {
     if (!this.validURL()) {
       return rejectURL();
     }
@@ -39,7 +39,8 @@ export default class Glints {
       "/users/",
       "POST",
       this.consumerToken,
-      this.accessToken
+      this.accessToken,
+      object
     );
     return request.send();
   }
