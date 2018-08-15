@@ -20,7 +20,16 @@ This SDK aims to help the development of integrations with Glints that use JavaS
 
 ```javascript
 cosnt glints = new Glints({
-    ...
+    baseURL: 'https://your-api.com/';
+    // Optional if you need oAuth request Authorization
+    consumer: {
+        public: "<public_consumer_key>",
+        secret: "<secret_consumer_key>"
+    },
+    accessToken: {
+        public: "<public_access_key>",
+        secret: "<secret_access_key>"
+    },
 })
 ```
 
@@ -29,3 +38,16 @@ cosnt glints = new Glints({
 #### Authentication
 
 - Register
+
+```javascript
+const yourData = {...};
+
+glints
+  .register(yourData)
+  .then(response => {
+    // TODO
+  })
+  .catch(error => {
+    // TODO
+  });
+```
