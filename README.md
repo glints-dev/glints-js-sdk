@@ -6,7 +6,7 @@ This SDK aims to help the development of integrations with Glints that use JavaS
 
 ## Installation
 
-### Broswer
+### Browser
 
 - Copy the minimal (.min.js) version of this glints-js-sdk
 - Include it to your script : `<script src="path/to/glints-js-sdk.js"></script>`
