@@ -19,7 +19,7 @@ This SDK aims to help the development of integrations with Glints that use JavaS
 ## Usage
 
 ```javascript
-cosnt glints = new Glints({
+const glints = new Glints({
     baseURL: 'https://your-api.com/';
     // Optional if you need oAuth request Authorization
     consumer: {
@@ -44,10 +44,10 @@ const yourData = {...};
 
 glints
   .register(yourData)
-  .then(response => {
+  .then((response) => {
     // TODO
   })
-  .catch(error => {
+  .catch((error) => {
     // TODO
   });
 ```
