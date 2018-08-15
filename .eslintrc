@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "max-len": ["error", 120],
+    "comma-dangle": ["error", "never"],
+    "space-before-function-paren": "error",
+    "no-plusplus": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": false
+      }
+    ],
+    "arrow-body-style": ["error", "always"]
+  },
+  "globals": {
+    "window": true
+  }
+}

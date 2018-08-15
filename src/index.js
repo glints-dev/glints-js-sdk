@@ -27,6 +27,7 @@ export default class Glints {
 
   /**
    * Register method
+   * @param {Object} object - An object containing the parameters accepted by the API to narrow the query.
    * @return {Promise} Credentials - Returns a Promise that, when fulfilled, will either return an Array with the users credetensials detail or
    * an Error with the problem.
    */
